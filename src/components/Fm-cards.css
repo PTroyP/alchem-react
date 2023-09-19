@@ -1,0 +1,65 @@
+.card-container {
+  width: 90%;
+  min-height: 33vh;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.charCard {
+  height: 250px;
+  width: 200px;
+  margin-top: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.name-block {
+  background-color: #00000033;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  word-wrap: break-word;
+  width: 200px;
+  color: #fff;
+}
+
+.char-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.char-img img {
+  max-height: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.title,
+.nk-name {
+  margin: 0;
+  line-height: 1em;
+}
+.title {
+  font-size: 1em;
+}
+
+.nk-name {
+  font-size: 0.6em;
+}
+
+.bkgrnd {
+  line-height: 1;
+  margin: 0;
+}

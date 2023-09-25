@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { CharacterCard } from './Fm-cards';
+import { CharacterCard } from './CharCard';
 
 export class AllCharCards extends Component {
   render() {

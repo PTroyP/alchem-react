@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-export class FmCard extends Component {
+export class CharacterCard extends Component {
   render() {
     const { charCard } = this.props;
     const { name, nickName, imageUrl, background } = charCard;
